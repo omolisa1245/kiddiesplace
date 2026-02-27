@@ -1,0 +1,82 @@
+.login-container{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #f78b8b62, #bfe2fa8e);
+    padding: 5%;
+    padding-left: 35%;
+
+}
+
+
+
+.form-container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 24rem;
+    
+    gap: 1rem;
+    color: rgb(116, 115, 115);
+}
+
+.form-header{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2.5rem;
+}
+
+.form-title{
+    font-size: 1.9vw;
+    color: rgb(54, 53, 53);
+}
+
+.form-input{
+    width: 30vw;
+    height: 3vw;
+    border: 1px solid rgb(78, 77, 77);
+    border-radius: 4px;
+    padding-left: 10px;
+    padding: 1vw;
+    font-size: 1vw;
+}
+
+.form-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+    font-size: 0.8vw;
+    margin-top: -0.5rem;
+    padding: 0 0.6rem;
+}
+
+.forget-pass, .toggle-state{
+  cursor: pointer;
+  font-size: 0.9vw;
+}
+
+.form-footer span{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(65, 64, 64);
+}
+
+.form-button{
+    width: 8vw;
+    height: 3vw;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem, 2rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2vw;
+
+}

@@ -1,0 +1,102 @@
+.order-container{
+    padding-top: 2rem;
+    border-bottom: 2px solid rgb(233, 231, 231);
+}
+
+.order-title {
+   margin-top: 5%;
+
+}
+.order-title h1{
+    font-size: 1.6vw;
+     margin-left: 11%;
+
+}
+
+.order-item-container{
+    padding: 1rem 0;
+    border-top: 1px solid rgb(182, 179, 179);
+    color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 11%;
+   
+
+}
+
+.order-item-details{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    font-size: 0.9vw;
+
+}
+
+.order-item-image{
+    width: 4vw;
+}
+
+.order-item-name{
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.order-item-info{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-top: 0.5rem;
+    font-size: 1vw;
+}
+
+.order-item-date, .order-item-payment{
+  margin-top: 0.5rem;
+}
+
+.order-item-status-container{
+    display: flex;
+   gap: 6rem;
+   align-items: center;
+  
+}
+
+.order-item-status{
+    display: flex;
+   align-items: center;
+   gap: 0.5rem;
+    justify-content: center;
+}
+
+.status-indicator{
+    width: 0.5vw;
+    height: 0.5vw;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.track-order-btn{
+    border: 1px solid rgb(228, 225, 225);
+    font-size: 0.8vw;
+    border-radius: 1rem;
+    font-weight: 500;
+    width: 7vw;
+    height: 3vw;
+    align-self: center;
+    cursor: pointer;
+}
+
+.track-order-btn:hover{
+    background-color: red;
+}
+
+.order-left{
+    display: flex;
+    gap: 26vw;
+}
+
+
+.order-content{
+    display: flex;
+    flex-direction: column;
+}

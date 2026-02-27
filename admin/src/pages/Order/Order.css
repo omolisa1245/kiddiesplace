@@ -1,0 +1,98 @@
+.order-title {
+    font-size: 1.4vw;
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+}
+
+.order-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16vw, 1fr));
+    gap: 20px;
+    background-color: rgb(226, 224, 224);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.order-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    border: 2px solid rgb(231, 226, 226);
+    border-radius: 5px;
+    font-size: 1vw;
+    color: rgb(82, 81, 81);
+    background-color: rgb(245, 243, 243);
+
+}
+
+.order-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.user-order-details {
+    padding: 10px;
+
+}
+
+.order-customer {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 0.9vw;
+    color: rgb(100, 99, 99);
+
+}
+
+
+
+.order-card span {
+      display: flex;
+    align-items: center;
+    font-size: 0.8vw;
+    font-weight: 600;
+    color: rgb(61, 61, 61);
+}
+
+.order-address{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.order-address span{
+    font-size: 0.8vw;
+}
+
+.order-address p{
+    font-size: 0.8vw;
+}
+
+.order-item,
+.order-method {
+    border-top: 1px solid rgb(206, 202, 202);
+    padding: 10px;
+}
+
+.order-method {
+    text-align: center;
+    font-size: 1.3vw;
+    color: red;
+}
+
+.order-status {
+    padding: 10px;
+    border: 1px solid rgb(228, 226, 226);
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: rgb(206, 203, 203);
+    color: black;
+    cursor: pointer;
+}

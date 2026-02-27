@@ -1,0 +1,59 @@
+.banner-conatiner{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+}
+
+.banner-content{
+    width: 100%;
+    height: 40vw;
+    background-color: rgb(136, 133, 133);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner-left{
+    width: 49%;
+    padding-left: 5%;
+}
+
+.banner-left img{
+    width: 30vw;
+}
+
+.banner-right{
+    width: 49%;
+    padding-right: 3%;
+}
+
+.banner-right h1{
+    font-size: 6.4vw;
+}
+
+.banner-right p{
+    font-size: 2vw;
+}
+.banner-right button{
+    font-size: 1.5vw;
+    width: 15vw;
+    height: 4vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin-top: 5%;
+    background-color: rgb(219, 3, 3);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.banner-right button:hover{
+ background-color: rgb(243, 223, 223);
+ color: black;
+}

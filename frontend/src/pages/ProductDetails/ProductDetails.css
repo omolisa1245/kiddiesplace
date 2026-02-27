@@ -1,0 +1,135 @@
+.product-container{
+    padding-top: 10px;
+    opacity: 1;
+    margin-bottom: 5%;
+}
+
+.product-content{
+    display: flex;
+    gap: 40px;
+}
+
+.product-images{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3px;
+    max-width: 50%;
+}
+
+.thumbnail-containter{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    margin-top: 10px;
+    
+}
+
+.thumbnail{
+    width: 24%;
+    flex-shrink: 0;
+    cursor: pointer;
+     background-color: rgb(245, 243, 243);
+}
+
+.main-image-containter{
+    width: 100%;
+    background-color: rgb(245, 243, 243);
+}
+
+.main-image{
+    width: 100%;
+    height: auto;
+}
+
+.product-info{
+    flex: 1;
+    max-width: 50%;
+}
+
+.product-info .productname{
+   font-size: 2rem;
+   font-weight: 500;
+   margin-top: 10px;
+
+}
+
+.product-price{
+      font-size: 1.875rem;
+   font-weight: 500;
+   margin-top: 20px;
+}
+
+.product-description{
+    margin-top: 20px;
+    color: gray;
+}
+
+.size-selector{
+    margin: 30px 0;
+}
+
+.size-buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.size-button{
+    border: none;
+    padding: 10px 15px;
+    background-color: rgba(236, 235, 235, 0.959);
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.size-buttons .acive-size{
+   border: 1.5px solid red;
+}
+
+.product-divider{
+    margin-top: 30px;
+}
+
+.product-policy{
+    margin-top: 20px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 0.875rem;
+}
+
+.add-to-cart-btn{
+    background-color: black;
+    color: white;
+    padding: 15px 80px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 0.875rem;
+    margin-top: 10px;
+}
+
+.descriptin-review-section{
+    margin-top: 50px;
+    margin-bottom: 10%;
+}
+
+.tabs{
+    display: flex;
+}
+
+.tab{
+  border:  1px solid;
+  padding: 10px 15px;
+  font-size: 0.875rem;
+}
+
+.desciption-content{
+    border:  1px solid;
+    padding: 20px;
+    color: gray;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

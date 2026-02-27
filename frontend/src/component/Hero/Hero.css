@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.hero-container {
+    width: 100%;
+    height: auto;
+   
+    
+
+}
+
+.slider-container {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #f78b8b62, #bfe2fa8e);
+    height: 46vw;
+
+}
+
+.hero-bg-color {
+    width: 100%;
+    height: auto;
+
+}
+
+
+.hero-holder {
+    width: 80%;
+    height: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(66, 64, 64);
+    padding-top: 4vw;
+    padding-left: 8vw;
+    align-items: center;
+    margin-top: 5%;
+    margin-inline: auto;
+    position: relative;
+    border-radius: 12px;
+    margin-bottom: 5%;
+    
+}
+
+
+.special-offer{
+    position: absolute;
+    width: 8vw;
+    top: 0;
+    left: 0;
+}
+
+.hero-content {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.hero-h4-layer{
+    width: 33vw;
+    height: 4vw;
+     background-color: rgb(233, 230, 230);
+    padding-left: 35px;
+    padding-top: 2%;
+    clip-path: polygon(100% 0%, 96% 49%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+
+.toy-h4-layer{
+    width: 20vw;
+    height: 4vw;
+     background-color: rgb(233, 230, 230);
+    padding-left: 35px;
+    padding-top: 2%;
+    clip-path: polygon(100% 0%, 96% 49%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+
+.hero-content h4 {
+    font-size: 1.8vw;
+    margin-bottom: -3%;
+    color: rgba(31, 30, 30, 0.904);
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+}
+
+.hero-content h1 {
+    font-size: 3.5vw;
+    color: white;
+    
+}
+
+.hero-content span {
+    font-size: 1.2vw;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+.hero-content button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+    padding-left: 12%;
+    width: 16vw;
+    height: 3vw;
+    font-size: 1.4vw;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 8, 25);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+
+.hero-content button:hover {
+    color: rgb(201, 110, 6);
+    background-color: rgb(90, 86, 78);
+}
+
+.btn-arrow{
+    display: flex;
+    padding-top: 3px;
+}
+
+.hero-image {
+    width: 48%;
+    display: flex;
+     
+}
+
+.hero-image img {
+    width: 22vw;
+    margin-top: -15%;
+    
+}
+
+.hero-image2{
+    width: 14vw;
+    margin-top: 5%;
+    margin-right: -10%;
+}
+
+.toy-img{
+   margin-right: 8%;
+}
+
+.toy-image{
+    width: 30vw;
+}
+
+.baby-image{
+    width: 40vw;
+}

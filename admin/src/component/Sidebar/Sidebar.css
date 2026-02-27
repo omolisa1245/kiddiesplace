@@ -1,0 +1,99 @@
+.sidebar-containner {
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    height: 60vw;
+    gap: 80px;
+    margin-top: -7%;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    padding-top: 5%;
+    padding-left: 2%;
+    border-top-right-radius: 30px;
+    padding-right: 2%;
+}
+
+.sidebar-containner-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.sidebar-container-top-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.sidebar-container-top-text h6 {
+    font-size: 1.2vw;
+    margin-left: 20px;
+}
+
+.sidebar-container-top-text span {
+    font-size: 0.9vw;
+    margin-top: 30px;
+}
+
+
+.sidebar-icon-pro {
+    width: 8vw;
+    height: 8vw;
+    background-color: rgba(255, 166, 0, 0.534);
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.sidebar-containner-down {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dasbord {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 0.7vw;
+   
+}
+
+.dasbord:hover {
+    background-color: rgb(177, 87, 3);
+    border-radius: 4px;
+}
+
+.sidebar-icon {
+    font-size: 1.2vw;
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.nav-logo img {
+    width: 7.5vw;
+    margin-bottom: 10px;
+}
+
+.nav-logo span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.7vw;
+    font-weight: 600;
+    font-style: italic;
+    font-family: "Great Vibes", cursive;
+}
+
+.nav-logo p {
+    color: rgb(255, 123, 0);
+    font-size: 1.4vw;
+}

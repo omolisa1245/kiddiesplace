@@ -1,0 +1,149 @@
+.login-container{
+    width: 100%;
+    height: 45vw;
+    background-color: rgb(99, 54, 2);
+}
+
+.login-background{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    padding-top: 6%;
+    gap: 4rem;
+}
+
+.login-top{
+    display: flex;
+}
+
+.login-down{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.login-down h2{
+    display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+  font-size: 2vw;
+}
+
+.cart-background{
+    font-size: 12vw;
+    color: white;
+}
+
+.login-down{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.login-down form{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.login-down form button{
+   width: 25vw;
+   height: 3vw;
+   background-color: rgb(26, 25, 25);
+   color: rgb(218, 216, 216);
+   border: none;
+   outline: none;
+   cursor: pointer;
+   transition: 0.3s;
+   font-size: 1.2vw;
+   font-weight: 600;
+  
+}
+
+.login-down form button:hover{
+   background-color: orange;
+  
+}
+
+.form-group-input{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.name-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.name-input input{
+   width: 25vw;
+   height: 3vw;
+   padding-left: 30px;
+   border: 1px solid rgb(245, 243, 243);
+   outline: none;
+   background-color:  rgb(99, 54, 2);
+   color: rgba(255, 255, 255, 0.911);
+   
+}
+
+.name-input img{
+width: 1.2vw;
+filter: invert(100%);
+position: absolute;
+    margin-left: 5px;
+
+}
+
+.name-input1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     position: relative;
+    
+}
+
+
+
+.name-input1 input{
+   width: 25vw;
+   height: 3vw;
+   padding-left: 30px;
+   border: 1px solid rgb(245, 243, 243);
+   outline: none;
+   background-color:  rgb(99, 54, 2);
+   color: rgba(255, 255, 255, 0.911);
+  
+   
+}
+
+.password-icon{
+    font-size: 1.4vw;
+    position: absolute;
+    margin-left: 5px;
+}
+
+
+.name-input input::placeholder{
+  font-size: 0.8vw;
+  color: rgba(255, 255, 255, 0.808);
+}
+
+.name-input1 input::placeholder{
+  font-size: 0.8vw;
+  color: rgba(255, 255, 255, 0.808);
+}

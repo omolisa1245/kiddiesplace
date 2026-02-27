@@ -1,0 +1,105 @@
+
+.addfood-container{
+    width: 70vw;
+    height: auto;
+    padding: 5% 10%;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1rem;
+    margin-inline: auto;
+}
+
+.form-label{
+    margin-bottom: 0.5rem;
+    font-size: 1.4vw;
+   
+}
+
+.upload-image-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.upload-image-container .image-preview{
+    width: 8vw;
+    cursor: pointer;
+}
+
+.form-group{
+   width: 100%;
+}
+
+
+.form-input{
+ width: 100%;
+ max-width: 70vw;
+ padding: 0.7rem;
+ border: 1px solid rgb(66, 66, 66);
+ border-radius: 4px;
+}
+
+.form-group-horizontal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+}
+
+.from-select{
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid rgb(65, 63, 63);
+    font-size: 0.9vw;
+}
+
+.price-input{
+    max-width: 12vw;
+}
+
+.submit-button{
+    padding: 0.5rem 5rem;
+    background-color: rgb(233, 99, 10);
+    border: none;
+    cursor: pointer;
+    margin-top: 1.5rem;
+
+}
+
+.form-group textarea{
+    height: 10vw;
+}
+
+.form-group-down{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+.size-option{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.size-options{
+  padding: 0.9rem;
+  cursor: pointer;
+  border:  1px solid rgb(173, 114, 4);
+  border-radius: 4px;
+}
+
+.selected{
+  background-color: orange;
+}
+
+.checkbox-group{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 10px;
+}

@@ -1,0 +1,144 @@
+.cart-content-container {
+    width: 85%;
+    height: auto;
+    margin-bottom: 5%;
+    margin-inline: auto;
+}
+
+
+.cart-item {
+    display: grid;
+    grid-template-columns: 4fr 0.5fr 0.5fr;
+    grid-template-areas: 'product info quantity delete';
+    padding: 1rem 0;
+    border-top: 1px solid rgb(185, 182, 182);
+    border-bottom: 1px solid rgb(202, 198, 198);
+    color: rgb(90, 89, 89);
+    margin-top: 5%;
+}
+
+.cart-item-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.product-cart-image {
+    width: 4vw;
+}
+
+.product-cart-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-cart-name {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.product-cart-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 0.5rem;
+}
+.product-cart-price p{
+    font-size: 1.2vw;
+}
+
+.size {
+    padding: 0.25rem 0.5rem;
+    background-color: rgba(243, 242, 242, 0.973);
+    border: 1px solid rgba(243, 242, 242, 0.973);
+}
+
+.quantity-input {
+    border: 1px solid rgba(187, 186, 186, 0.973);
+    width: 4vw;
+    height: 2.5vw;
+    justify-content: center;
+    place-items: center;
+    place-self: center;
+    font-size: 1.1vw;
+    padding-left: 10px;
+
+}
+
+.delete-icon {
+    cursor: pointer;
+    place-self: center;
+    margin-right: 1vw;
+    font-size: 1.6vw;
+}
+
+.checkout-button {
+    width: 15vw;
+    height: 3vw;
+    background-color: rgb(165, 8, 8);
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+.checkout-button:hover {
+    background-color: rgb(190, 23, 23);
+}
+
+.checkout-container {
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: 26vw;
+    padding: 20px 20px;
+    margin-top: 4%;
+}
+
+
+
+/*....... key frames....... */
+
+
+@media(max-width : 900px) {
+
+        .checkout-button {
+         
+            margin-top: 10px;
+           
+        }
+
+
+  
+}
+
+
+@media(max-width : 700px) {
+
+        .checkout-button {
+         
+            margin-top: 5px;
+           
+        }
+
+    }
+
+@media(max-width : 450px) {
+
+     
+.checkout-container {
+    padding: 5px 5px;
+    margin-top: 2%;
+}
+
+.cart-title h2 {
+    font-size: 1.7vw;
+    margin-bottom: 0.3rem;
+}
+
+
+  
+}

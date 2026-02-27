@@ -1,0 +1,138 @@
+.form-holder{
+    display: flex;
+    flex-direction: column;
+     width: 60vw;
+    padding-top: 2rem;
+    min-height: 60vh;
+    margin-left: 12%;
+    align-items: start;
+    margin: 5%;
+    gap: 1rem;
+   
+}
+
+.form-container{
+    width: 100%;
+     display: flex;
+    flex-direction: row;
+    gap: 13vw;
+    padding-left: 5%;
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.payment-method{
+    border:  2px solid rgb(212, 211, 211);
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+.payment-method legend{
+   text-align: center;
+   font-size: 1.5vw;
+
+}
+
+.payment-options{
+    display: flex;
+    gap: 1vw;
+   
+}
+
+.payment-option{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid rgb(204, 203, 203);
+  padding: 0.3vw;
+  width: 12vw;
+   cursor: pointer;
+   border-radius: 5px;
+  
+}
+
+.payment-option.selected{
+  background-color: rgb(212, 52, 52);
+  color: white;
+}
+
+.payment-text{
+    display: flex;
+    font-size: 0.7vw;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+}
+
+.payment-logo{
+    height: 3vw;
+    width: 7vw;
+    object-fit: contain;
+}
+
+.form-title h2{
+    font-size: 1.7vw;
+    margin-bottom: 1rem;
+}
+
+.form-row{
+    display: flex;
+    gap: 1vw;
+}
+
+.form-input2{
+    border: 1px solid gray;
+    border-radius: 5px;
+   width: 43vw;
+   height: 3vw;
+   padding-left: 15px;
+}
+
+.form-input1{
+    border: 1px solid gray;
+    border-radius: 5px;
+   width: 21vw;
+   height: 3vw;
+   padding-left: 15px;
+}
+
+.form-right{
+  width: 38vw;
+  margin-top: 3%;
+ 
+  
+}
+
+.form-submit{
+  text-align: right;
+  margin-top: 2rem;
+  width: 25vw;
+  height: 3vw;
+  text-align: center;
+  font-size: 1.6vvw;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  background-color: rgb(182, 4, 4);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.form-submit:hover{
+     background-color: rgb(192, 18, 18);
+}
+
+
+.submit-button{
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+}

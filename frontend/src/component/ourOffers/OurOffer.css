@@ -1,0 +1,103 @@
+.our-offers {
+   margin-top: 10%;
+}
+
+
+.hero-offers {
+   width: 85%;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 5vw;
+   padding-left: 15vw;
+   margin-top: -5%;
+
+
+}
+
+.delivery {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5vw;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   padding: 5px 10px;
+   border-radius: 4px;
+   height: 13vw;
+
+}
+
+.delivery img {
+   width: 5vw;
+
+}
+
+.delivery h3 {
+   font-size: 1.2vw;
+
+}
+
+.delivery span {
+   font-size: 0.8vw;
+   width: 12vw;
+   text-align: center;
+   color: rgb(70, 69, 69);
+
+}
+
+
+.deliver {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5vw;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   padding: 15px 10px;
+   border-radius: 4px;
+   height: 13vw;
+
+}
+
+
+.deliver img {
+   width: 3vw;
+
+}
+
+.deliver h3 {
+   font-size: 1.2vw;
+
+}
+
+.deliver span {
+   font-size: 0.8vw;
+   width: 12vw;
+   text-align: center;
+   color: rgb(70, 69, 69);
+
+}
+
+
+/* key frames  */
+
+
+@media(max-width : 654px) {
+
+   .hero-offers {
+
+      padding-left: 8vw;
+
+
+   }
+}
+
+@media(max-width : 400px) {
+
+   .hero-offers {
+
+      padding-left: 4vw;
+
+
+   }
+}

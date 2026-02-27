@@ -1,0 +1,80 @@
+
+.review-container{
+    width: 100%;
+    height: auto;
+    margin: 10%;
+    padding-right: 3%;
+}
+
+.review-container h2{
+   font-size: 3vw;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   padding-right: 15%;
+}
+
+
+
+.review-card-holder{
+    display: grid;
+    width: 85%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    column-gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.produc-card{
+    width: 20vw;
+    border: 1px solid rgb(226, 223, 223);
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+
+}
+
+.produc-card:hover{
+    box-shadow: 0px 4px 12px rgba(14, 14, 14, 0.199);
+}
+
+.produc-image{
+    position: relative;
+}
+
+.produc-image img{
+    width: 100%;
+    height: 21vw;
+    transform: scale(0.8);
+    transition: transfrom 0.5s ease;
+    object-fit: cover;
+}
+
+
+.produc-card h3{
+    font-size: 1.7vw;
+    margin: 8px 0;
+    margin-bottom: 30px;
+}
+
+.produc-card p{
+    font-size: 1vw;
+    color: rgb(46, 46, 46);
+    padding: 15px;
+}
+
+.produc-card span{
+    font-size: 1vw;
+    margin-bottom: 5%;
+}
+
+.divider{
+    border: 1px solid rgb(126, 123, 123);
+}
+
+.quote{
+    width: 2vw;
+}
