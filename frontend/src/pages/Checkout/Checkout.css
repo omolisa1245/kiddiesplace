@@ -1,138 +1,160 @@
-.form-holder{
-    display: flex;
-    flex-direction: column;
-     width: 60vw;
-    padding-top: 2rem;
-    min-height: 60vh;
-    margin-left: 12%;
-    align-items: start;
-    margin: 5%;
-    gap: 1rem;
-   
+/* MAIN CONTAINER */
+.form-container {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  gap: 40px;
+  padding: 0 20px;
+  align-items: flex-start;
 }
 
-.form-container{
-    width: 100%;
-     display: flex;
-    flex-direction: row;
-    gap: 13vw;
-    padding-left: 5%;
+/* LEFT SIDE */
+.form-holder {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.form-left{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-
+/* RIGHT SIDE */
+.form-right {
+  flex: 1;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  height: fit-content;
 }
 
-.payment-method{
-    border:  2px solid rgb(212, 211, 211);
-    padding: 30px;
-    border-radius: 10px;
-    
+/* PAYMENT */
+.payment-method {
+  border: 1px solid #d4d3d3;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.payment-method legend{
-   text-align: center;
-   font-size: 1.5vw;
-
+.payment-method legend {
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.payment-options{
-    display: flex;
-    gap: 1vw;
-   
+.payment-options {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
-.payment-option{
-    display: flex;
-   align-items: center;
-   justify-content: center;
-   border: 1px solid rgb(204, 203, 203);
-  padding: 0.3vw;
-  width: 12vw;
-   cursor: pointer;
-   border-radius: 5px;
-  
+.payment-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s ease;
 }
 
-.payment-option.selected{
+.payment-option.selected {
   background-color: rgb(212, 52, 52);
   color: white;
 }
 
-.payment-text{
-    display: flex;
-    font-size: 0.7vw;
-    font-weight: 600;
-    text-align: center;
-    justify-content: center;
-}
-
-.payment-logo{
-    height: 3vw;
-    width: 7vw;
-    object-fit: contain;
-}
-
-.form-title h2{
-    font-size: 1.7vw;
-    margin-bottom: 1rem;
-}
-
-.form-row{
-    display: flex;
-    gap: 1vw;
-}
-
-.form-input2{
-    border: 1px solid gray;
-    border-radius: 5px;
-   width: 43vw;
-   height: 3vw;
-   padding-left: 15px;
-}
-
-.form-input1{
-    border: 1px solid gray;
-    border-radius: 5px;
-   width: 21vw;
-   height: 3vw;
-   padding-left: 15px;
-}
-
-.form-right{
-  width: 38vw;
-  margin-top: 3%;
- 
-  
-}
-
-.form-submit{
-  text-align: right;
-  margin-top: 2rem;
-  width: 25vw;
-  height: 3vw;
+.payment-text {
+  font-size: 13px;
+  font-weight: 600;
   text-align: center;
-  font-size: 1.6vvw;
+}
+
+.payment-logo {
+  height: 30px;
+  object-fit: contain;
+}
+
+/* FORM TITLE */
+.form-title h2 {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+/* INPUT ROW */
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+/* INPUTS */
+.form-input1,
+.form-input2 {
+  border: 1px solid gray;
+  border-radius: 6px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.form-input1 {
+  flex: 1;
+}
+
+.form-input2 {
+  width: 100%;
+}
+
+/* BUTTON */
+.form-submit {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
   font-weight: 600;
   border: none;
-  outline: none;
   background-color: rgb(182, 4, 4);
   color: white;
-  font-weight: 600;
   cursor: pointer;
+  border-radius: 6px;
   transition: 0.3s ease;
 }
 
-.form-submit:hover{
-     background-color: rgb(192, 18, 18);
+.form-submit:hover {
+  background-color: rgb(192, 18, 18);
 }
 
 
-.submit-button{
+::placeholder{
+    font-size: 13px;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+
+/* Tablet */
+@media (max-width: 900px) {
+  .form-container {
+    flex-direction: column;
+  }
+
+  .form-right {
     width: 100%;
-    padding: 4px;
-    border-radius: 5px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
+    
+  }
+
+  
+
+  .payment-options {
+    flex-direction: column;
+  }
+
+  .payment-option {
+    width: 100%;
+  }
 }

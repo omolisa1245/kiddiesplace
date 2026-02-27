@@ -76,7 +76,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="nav-down-right">
-                        <span>Hi, {userData ? userData.name : 'name'}</span>
+                      
                         <div className="cart-btn">
                             <Link to={'/cart'}>
                                 <BsCartCheck className='cart-icon' />
