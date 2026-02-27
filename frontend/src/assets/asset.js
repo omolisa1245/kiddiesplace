@@ -74,7 +74,7 @@ import new_arrival_b1 from "./new_arrival_b1.png"
 import new_arrival_b2 from "./new_arrival_b2.png"
 import new_arrival_b3 from "./new_arrival_b3.png"
 import new_arrival_b4 from "./new_arrival_b4.png"
-import new_arrival_b5 from "./new_arrival_b5.png"
+import new_arrival_B5 from "./new_arrival_B5.png"
 import new_arrival_b6 from "./new_arrival_b6.png"
 import new_arrival_b7 from "./new_arrival_b7.png"
 import p_img1 from "./p_img1.png"
@@ -1171,7 +1171,7 @@ export const product = [
         price: 120,
         category: "Shoe",
         Sub_category: "new_arrival",
-        image: [new_arrival_b5],
+        image: [new_arrival_B5],
         sizes: ["M", "s", "L", "XL"],
         bestseller: false,
         rating: 5
