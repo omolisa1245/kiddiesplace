@@ -77,7 +77,7 @@ const Checkout = () => {
 
             switch (method) {
                 case "cod":
-                    const response = await axios.post("http://localhost:4000/api/order/place",
+                    const response = await axios.post("https://kiddiesplace.vercel.app/api/order/place",
                         orderData, { headers: { token } }
                     );
                     console.log(orderData);
@@ -96,7 +96,7 @@ const Checkout = () => {
                     break;
 
                 case 'stripe':
-                    const responseStripe = await axios.post("http://localhost:4000/api/order/stripe", orderData, { headers: { token } });
+                    const responseStripe = await axios.post("https://kiddiesplace.vercel.app/api/order/stripe", orderData, { headers: { token } });
                     console.log(responseStripe.data);
 
                     if (responseStripe.data.success) {

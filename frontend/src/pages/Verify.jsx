@@ -22,7 +22,7 @@ const Verify = () => {
                 return null
             }
 
-            const response = await axios.post("http://localhost:4000/api/order/verify", {success, orderId}, {headers:{token}});
+            const response = await axios.post("https://kiddiesplace.vercel.app/api/order/verify", {success, orderId}, {headers:{token}});
               console.log(response.data);
               
             if (response.data.success) {

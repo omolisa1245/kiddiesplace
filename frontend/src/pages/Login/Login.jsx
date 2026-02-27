@@ -21,7 +21,7 @@ const Login = () => {
     e.preventDefault()
     try {
       if (currState === "Sign up") {
-        const response = await axios.post("http://localhost:4000/api/user/register", {email, name, password})
+        const response = await axios.post("https://kiddiesplace.vercel.app/api/user/register", {email, name, password})
 
          if (response.data.success) {
                 setToken(response.data.token);
@@ -35,7 +35,7 @@ const Login = () => {
         
       }
       else{
-        const response = await axios.post("http://localhost:4000/api/user/login", {email, password})
+        const response = await axios.post("https://kiddiesplace.vercel.app/api/user/login", {email, password})
         
          if (response.data.success) {
                 setToken(response.data.token);

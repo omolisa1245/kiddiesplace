@@ -17,7 +17,7 @@ const Order = () => {
 
             }
 
-            const response = await axios.post("http://localhost:4000/api/order/userorder", {}, { headers: { token } });
+            const response = await axios.post("https://kiddiesplace.vercel.app/api/order/userorder", {}, { headers: { token } });
             console.log(response.data);
 
 

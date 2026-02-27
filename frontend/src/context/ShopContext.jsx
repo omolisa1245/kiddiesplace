@@ -53,7 +53,7 @@ const ShopContextProvider = ({children}) => {
 
         if (token) {
           try {
-              await axios.post("http://localhost:4000/api/cart/add", {itemId, sizes}, {headers: {token}})
+              await axios.post("https://kiddiesplace.vercel.app/api/cart/add", {itemId, sizes}, {headers: {token}})
 
 
           } catch (error) {
@@ -92,7 +92,7 @@ const ShopContextProvider = ({children}) => {
 
        if (token) {
          try {
-          await axios.post("http://localhost:4000/api/cart/update", {itemId, sizes, quantity}, {headers: {token}})  
+          await axios.post("https://kiddiesplace.vercel.app/api/cart/update", {itemId, sizes, quantity}, {headers: {token}})  
 
          } catch (error) {
           console.log(error);
@@ -125,7 +125,7 @@ const ShopContextProvider = ({children}) => {
 
     const getProductData = async () =>{
       try {
-          const response = await axios.get("http://localhost:4000/api/product/list")
+          const response = await axios.get("https://kiddiesplace.vercel.app/api/product/list")
            console.log(response.data)
         
           
@@ -140,7 +140,7 @@ const ShopContextProvider = ({children}) => {
 
     const getUserCart = async (token) =>{
         try {
-          const response  = await axios.post("http://localhost:4000/api/cart/get",{}, {headers: {token}})
+          const response  = await axios.post("https://kiddiesplace.vercel.app/api/cart/get",{}, {headers: {token}})
           console.log(response.data);
           
           if (response.data.success) {
@@ -161,7 +161,7 @@ const ShopContextProvider = ({children}) => {
     const getUserData = async () =>{
       
         try {
-          const response  = await axios.get("http://localhost:4000/api/user/data")
+          const response  = await axios.get("https://kiddiesplace.vercel.app/api/user/data")
           console.log(response);
           
           if (response.data.success) {
